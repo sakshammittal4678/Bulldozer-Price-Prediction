@@ -64,7 +64,7 @@ def rmsle(y_true, y_preds):
 
 | Model Version            | Description                      | RMSLE Score |
 | ------------------------ | -------------------------------- | ----------- |
-| Baseline Random Forest   | No tuning, minimal preprocessing | 0.289       |
+| Baseline Random Forest   | No tuning, minimal preprocessing | 0.254       |
 | With Feature Engineering | Added engineered date features   | 0.251       |
 | Final Tuned Model        | Full pipeline + tuned parameters | **0.244**   |
 
