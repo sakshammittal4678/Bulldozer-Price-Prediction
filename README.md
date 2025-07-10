@@ -9,7 +9,7 @@ This project predicts the **resale price of used bulldozers** using machine lear
 - **Source**: Provided by Kaggle – Blue Book for Bulldozers
 - **Target**: Predict the `SalePrice` of a bulldozer
 - **Size**: ~401,000 rows, 50+ features
-- **Files Used**: `TrainAndValid.csv`, `Test.csv`, `Train.csv`
+- **Files Used**: `TrainAndValid.csv`, `Test.csv`
 
 ---
 
@@ -30,8 +30,7 @@ Goals:
 
 - **RandomForestRegressor** (`scikit-learn`)
 - Feature importance analysis
-- Pipeline-based data preprocessing
-- Hyperparameter tuning with `GridSearchCV`
+- Hyperparameter tuning with `RandomSearchCV`
 
 ---
 
@@ -44,9 +43,7 @@ Goals:
 
 ### 🛠️ Feature Engineering
 - Extracted date features from `saledate`
-  - `saleYear`, `saleMonth`, `dayOfWeek`, etc.
-- Created `machine_age = saleYear - YearMade`
-- Converted `SalePrice` with `log1p` transform to reduce skew
+  - `saleYear`, `saleMonth`, `saleDayOfWeek`, etc.
 
 ---
 
