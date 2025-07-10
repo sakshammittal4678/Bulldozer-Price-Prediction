@@ -1,4 +1,4 @@
-# 🏗️ Bulldozer Price Prediction
+# 🚜 Bulldozer Price Prediction
 
 This project predicts the **resale price of used bulldozers** using machine learning. It’s based on the Kaggle competition [Blue Book for Bulldozers](https://www.kaggle.com/competitions/bluebook-for-bulldozers) and uses a **Random Forest Regressor** trained on over 400,000 rows of historical auction data.
 
